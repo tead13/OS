@@ -9,7 +9,7 @@ This repository contains a structured collection of exercises and solved exam pr
 ### Folder Structure
 
 - `Python` – Exercises implemented in Python.
-- `Shell` – Shell scripting problems using Bash. Some tasks in this folder are related to Python scripts found in the `python_tasks/` folder.
+- `Shell` – Shell scripting problems using Bash. Some tasks in this folder are related to Python scripts found in the `Python` folder.
 - `IPC` – Tasks involving inter-process communication: pipes, shared memory, mapped memory, semaphores, and more.
 - `Drivers` – Example Linux kernel modules and device drivers.
 
