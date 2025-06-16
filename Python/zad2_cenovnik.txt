@@ -1,0 +1,6 @@
+123 Mleko 80
+456 Leb 50
+789 Cokolado 120
+111 Vino 300
+222 CocaCola 89
+888 Sirenje 400

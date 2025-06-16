@@ -1,0 +1,11 @@
+Mike 071123123 e njegov nov mobilen i vazi za dobar prijatel.
+Petar 071123123 go koristi za rabota i biznis.
+Ana 075432145 e studentka, nejziniot broj znae da se javi koga i da e.
+Bojan 077654321 sportist, ima svoj mobilen i cesto mu zvonat drugari.
+Ivana 078111000 nastavnicka po matematika, za ucenici i roditeli.
+Mike 075432145 pak ima vtor broj, bidejki mu treba i sluzben.
+Goran 071123123 toj go nasledi od Petar.
+Majkata na Petar, Jana 078111000 ima svoj, no ponekogas go koristi i sinot.
+Petar 077654323 od skopje, sega ima nov, stariot mu e izguben.
+Taksistot, Tome 077654341, vo kolata ima, za patnici.
+ne e validen: Dragan 07112312 toj ima 8-cifri.
