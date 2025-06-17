@@ -8,3 +8,39 @@
 # кои што не биле пронајдени во тековната датотека). На крајот од изминувањето на датотеката да се
 # отпечати вкупната сума (во денари) што била пронајдена во датотеката. Скриптата, на крај треба да
 # отпечати кои валути биле пронајдени. 
+
+import sys
+
+if len(sys.argv) < 2:
+    print("nevaliden broj na argumenti")
+    sys.exit(1)
+
+dat = open(sys.argv[1], "r", encoding="utf-8")
+
+valuti = {"$": 0, "€": 0, "£": 0, "kn": 0, "kr": 0, "Rp": 0, "CHF": 0}
+
+for line in dat:
+    words = line.split()
+    for i in range(len(words)-1):
+        word = words[i] 
+        suma = words[i+1]
+        if word in valuti and suma.isdigit():
+            valuti[word] += int(suma)
+dat.close()
+
+vkupno = 0
+
+
+for val, suma in valuti.items():
+    if suma > 0: #znaci bila pronajdena valutata
+        kurs = input(f"Vnesi kurs za valuta {val} vo denari\n")
+        vkupno += int(suma) * int(kurs)
+#taka so for ciklus, za site najdeni valuti ke vnese kurs i ke gi dodae vo vk vo den
+
+#PECATI PRONAJDENI VALUTI SO IZNOS, I NA KRAJ KOLKU VK VO DEN
+print("Pronajdeni valuti:\n")
+for val, suma in valuti.items():
+    if suma > 0:
+        print(f"{val}:{suma}")
+
+print(f"Vkupno vo denari: {vkupno}")

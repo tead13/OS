@@ -1,0 +1,6 @@
+1 omlet dorucek 150
+2 corba rucak 200
+3 pizza vecera 350
+4 tost dorucek 100
+5 pasul rucak 180
+6 mekici dorucek 120

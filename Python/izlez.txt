@@ -1,0 +1,3 @@
+Istite hashtagovi medju file1.txt i file2.txt:#Skopje, 
+Istite hashtagovi medju file1.txt i file3.txt:#Makedonija, #Skopje, #Kod., 
+Istite hashtagovi medju file2.txt i file3.txt:#Skopje, 
